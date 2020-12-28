@@ -1,0 +1,5 @@
+{
+  "input": "./packages/input/index.js",
+  "date-picker": "./packages/date-picker/index.js",
+  "button": "./packages/button/index.js"
+}
