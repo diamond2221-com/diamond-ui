@@ -24,7 +24,7 @@
 </template>
 <script>
   export default {
-    name: 'DmButton',
+    name: 'DMButton',
 
     inject: {
       elForm: {

@@ -23,19 +23,20 @@ npm install diamond2221-ui -S
 ## Quick Start
 ``` javascript
 import Vue from 'vue'
+import 'diamond2221-ui/lib/theme-chalk/index.css'
 import DiamondUi from 'diamond2221-ui'
 
 Vue.use(DiamondUi)
 
 // or
 import {
-  Select,
-  Button
+  DatePicker,
+  Scrollbar
   // ...
 } from 'diamond2221-ui'
 
-Vue.component(Select.name, Select)
-Vue.component(Button.name, Button)
+Vue.component(DatePicker.name, DatePicker)
+Vue.component(Scrollbar.name, Scrollbar)
 ```
 
 ## Browser Support
