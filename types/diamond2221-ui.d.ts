@@ -4,7 +4,7 @@ import { ElementUIComponent, ElementUIComponentSize, ElementUIHorizontalAlignmen
 import { ElDatePicker } from './date-picker'
 import { DmInput } from './input'
 import { ElPopover } from './popover'
-import { ElTransfer } from './transfer'
+import { ElScrollbar } from './scrollbar'
 
 
 export interface InstallationOptions {
@@ -44,5 +44,6 @@ export class DatePicker extends ElDatePicker { }
 /** Popover Component */
 export class Popover extends ElPopover {}
 
-/** Transfer Component */
-export class Transfer extends ElTransfer {}
+
+/** Scrollbar Component */
+export class Scrollbar extends ElScrollbar { }

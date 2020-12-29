@@ -1,5 +1,7 @@
 {
   "input": "./packages/input/index.js",
   "date-picker": "./packages/date-picker/index.js",
-  "button": "./packages/button/index.js"
+  "button": "./packages/button/index.js",
+  "icon": "./packages/icon/index.js",
+  "scrollbar": "./packages/scrollbar/index.js"
 }
