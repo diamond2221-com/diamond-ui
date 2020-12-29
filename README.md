@@ -17,7 +17,7 @@
 
 ## Install
 ```shell
-npm install diamond-ui -S
+npm install diamond2221-ui -S
 ```
 
 ## Quick Start
