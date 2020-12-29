@@ -5,7 +5,7 @@ import TimeRangePanel from '../panel/time-range';
 export default {
   mixins: [Picker],
 
-  name: 'DMTimePicker',
+  name: 'DmTimePicker',
 
   props: {
     isRange: Boolean,

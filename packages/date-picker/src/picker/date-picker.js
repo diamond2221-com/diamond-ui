@@ -15,7 +15,7 @@ const getPanel = function(type) {
 export default {
   mixins: [Picker],
 
-  name: 'DMDatePicker',
+  name: 'DmDatePicker',
 
   props: {
     type: {

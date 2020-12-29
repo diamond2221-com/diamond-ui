@@ -140,7 +140,7 @@ import merge from 'diamond2221-ui/src/utils/merge';
 import { isKorean } from 'diamond2221-ui/src/utils/shared';
 
 export default {
-  name: 'DMInput',
+  name: 'DmInput',
 
   componentName: 'DmInput',
 
