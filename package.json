@@ -125,5 +125,5 @@
     "webpack-dev-server": "^3.1.11",
     "webpack-node-externals": "^1.7.2"
   },
-  "homepage": "https://github.com/diamond2221-com/diamond2221-ui"
+  "homepage": "https://github.com/diamond2221-com/diamond-ui"
 }
