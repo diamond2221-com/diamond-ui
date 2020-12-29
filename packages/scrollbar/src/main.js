@@ -1,8 +1,8 @@
 // reference https://github.com/noeldelgado/gemini-scrollbar/blob/master/index.js
 
-import { addResizeListener, removeResizeListener } from 'diamond-ui/src/utils/resize-event';
-import scrollbarWidth from 'diamond-ui/src/utils/scrollbar-width';
-import { toObject } from 'diamond-ui/src/utils/util';
+import { addResizeListener, removeResizeListener } from 'diamond2221-ui/src/utils/resize-event';
+import scrollbarWidth from 'diamond2221-ui/src/utils/scrollbar-width';
+import { toObject } from 'diamond2221-ui/src/utils/util';
 import Bar from './bar';
 
 /* istanbul ignore next */

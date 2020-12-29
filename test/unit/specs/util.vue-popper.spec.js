@@ -1,4 +1,4 @@
-import VuePopper from 'diamond-ui/src/utils/vue-popper';
+import VuePopper from 'diamond2221-ui/src/utils/vue-popper';
 import { createTest } from '../util';
 
 const Popper = Object.assign({}, VuePopper, {

@@ -1,4 +1,4 @@
-import Clickoutside from 'diamond-ui/src/utils/clickoutside';
+import Clickoutside from 'diamond2221-ui/src/utils/clickoutside';
 const ctx = '@@clickoutsideContext';
 
 import { triggerEvent, triggerClick } from '../util';

@@ -3,7 +3,7 @@
 import Input from '../packages/input/index.js';
 import DatePicker from '../packages/date-picker/index.js';
 import Button from '../packages/button/index.js';
-import locale from 'diamond-ui/src/locale';
+import locale from 'diamond2221-ui/src/locale';
 
 const components = [
   Input,

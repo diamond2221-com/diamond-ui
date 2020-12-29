@@ -10,8 +10,8 @@ SUB_FOLDER='2.14'
 mkdir -p $SUB_FOLDER
 rm -rf *.js *.css *.map static
 rm -rf $SUB_FOLDER/**
-cp -rf ../../examples/diamond-ui/** .
-cp -rf ../../examples/diamond-ui/** $SUB_FOLDER/
+cp -rf ../../examples/diamond2221-ui/** .
+cp -rf ../../examples/diamond2221-ui/** $SUB_FOLDER/
 cd ../..
 
 # deploy domestic site

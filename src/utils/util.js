@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import { isString, isObject } from 'diamond-ui/src/utils/types';
+import { isString, isObject } from 'diamond2221-ui/src/utils/types';
 
 const hasOwnProperty = Object.prototype.hasOwnProperty;
 

@@ -1,4 +1,4 @@
-import VuePopup from 'diamond-ui/src/utils/popup';
+import VuePopup from 'diamond2221-ui/src/utils/popup';
 import { createTest, destroyVM } from '../util';
 
 const Popup = Object.assign({}, VuePopup, {

@@ -133,11 +133,11 @@
   </div>
 </template>
 <script>
-import emitter from 'diamond-ui/src/mixins/emitter';
-import Migrating from 'diamond-ui/src/mixins/migrating';
+import emitter from 'diamond2221-ui/src/mixins/emitter';
+import Migrating from 'diamond2221-ui/src/mixins/migrating';
 import calcTextareaHeight from './calcTextareaHeight';
-import merge from 'diamond-ui/src/utils/merge';
-import { isKorean } from 'diamond-ui/src/utils/shared';
+import merge from 'diamond2221-ui/src/utils/merge';
+import { isKorean } from 'diamond2221-ui/src/utils/shared';
 
 export default {
   name: 'DmInput',

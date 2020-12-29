@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import {
   PopupManager
-} from 'diamond-ui/src/utils/popup';
+} from 'diamond2221-ui/src/utils/popup';
 
 const PopperJS = Vue.prototype.$isServer ? function() {} : require('./popper');
 const stop = e => e.stopPropagation();

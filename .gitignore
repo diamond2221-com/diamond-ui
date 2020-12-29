@@ -11,12 +11,12 @@ lerna-debug.log.*
 lib
 .idea
 .vscode
-examples/diamond-ui
+examples/diamond2221-ui
 examples/pages/en-US
 examples/pages/zh-CN
 examples/pages/es
 examples/pages/fr-FR
-fe.element/diamond-ui
+fe.element/diamond2221-ui
 .npmrc
 coverage
 waiter.config.js

@@ -9,21 +9,21 @@ var transitionList = fs.readdirSync(path.resolve(__dirname, '../src/transitions'
 var externals = {};
 
 Object.keys(Components).forEach(function(key) {
-  externals[`diamond-ui/packages/${key}`] = `diamond-ui/lib/${key}`;
+  externals[`diamond2221-ui/packages/${key}`] = `diamond2221-ui/lib/${key}`;
 });
 
-externals['diamond-ui/src/locale'] = 'diamond-ui/lib/locale';
+externals['diamond2221-ui/src/locale'] = 'diamond2221-ui/lib/locale';
 utilsList.forEach(function(file) {
   file = path.basename(file, '.js');
-  externals[`diamond-ui/src/utils/${file}`] = `diamond-ui/lib/utils/${file}`;
+  externals[`diamond2221-ui/src/utils/${file}`] = `diamond2221-ui/lib/utils/${file}`;
 });
 mixinsList.forEach(function(file) {
   file = path.basename(file, '.js');
-  externals[`diamond-ui/src/mixins/${file}`] = `diamond-ui/lib/mixins/${file}`;
+  externals[`diamond2221-ui/src/mixins/${file}`] = `diamond2221-ui/lib/mixins/${file}`;
 });
 transitionList.forEach(function(file) {
   file = path.basename(file, '.js');
-  externals[`diamond-ui/src/transitions/${file}`] = `diamond-ui/lib/transitions/${file}`;
+  externals[`diamond2221-ui/src/transitions/${file}`] = `diamond2221-ui/lib/transitions/${file}`;
 });
 
 externals = [Object.assign({
@@ -36,7 +36,7 @@ exports.alias = {
   main: path.resolve(__dirname, '../src'),
   packages: path.resolve(__dirname, '../packages'),
   examples: path.resolve(__dirname, '../examples'),
-  'diamond-ui': path.resolve(__dirname, '../')
+  'diamond2221-ui': path.resolve(__dirname, '../')
 };
 
 exports.vue = {

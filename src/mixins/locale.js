@@ -1,4 +1,4 @@
-import { t } from 'diamond-ui/src/locale';
+import { t } from 'diamond2221-ui/src/locale';
 
 export default {
   methods: {

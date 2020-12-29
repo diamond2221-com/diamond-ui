@@ -1,9 +1,9 @@
-import { kebabCase } from 'diamond-ui/src/utils/util';
+import { kebabCase } from 'diamond2221-ui/src/utils/util';
 /**
  * Show migrating guide in browser console.
  *
  * Usage:
- * import Migrating from 'diamond-ui/src/mixins/migrating';
+ * import Migrating from 'diamond2221-ui/src/mixins/migrating';
  *
  * mixins: [Migrating]
  *

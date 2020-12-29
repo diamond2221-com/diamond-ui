@@ -1,4 +1,4 @@
-import { addClass, removeClass } from 'diamond-ui/src/utils/dom';
+import { addClass, removeClass } from 'diamond2221-ui/src/utils/dom';
 
 class Transition {
   beforeEnter(el) {

@@ -19,8 +19,8 @@
 </template>
 
 <script type="text/babel">
-  import DmScrollbar from 'diamond-ui/packages/scrollbar';
-  import scrollIntoView from 'diamond-ui/src/utils/scroll-into-view';
+  import DmScrollbar from 'diamond2221-ui/packages/scrollbar';
+  import scrollIntoView from 'diamond2221-ui/src/utils/scroll-into-view';
 
   const parseTime = function(time) {
     const values = (time || '').split(':');

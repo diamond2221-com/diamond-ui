@@ -84,12 +84,12 @@
     prevYear,
     nextYear,
     nextMonth
-  } from 'diamond-ui/src/utils/date-util';
-  import Clickoutside from 'diamond-ui/src/utils/clickoutside';
-  import Locale from 'diamond-ui/src/mixins/locale';
+  } from 'diamond2221-ui/src/utils/date-util';
+  import Clickoutside from 'diamond2221-ui/src/utils/clickoutside';
+  import Locale from 'diamond2221-ui/src/mixins/locale';
   import MonthTable from '../basic/month-table';
-  import DmInput from 'diamond-ui/packages/input';
-  import DmButton from 'diamond-ui/packages/button';
+  import DmInput from 'diamond2221-ui/packages/input';
+  import DmButton from 'diamond2221-ui/packages/button';
 
   const calcDefaultValue = (defaultValue) => {
     if (Array.isArray(defaultValue)) {

@@ -13,10 +13,10 @@
 </template>
 
 <script type="text/babel">
-  import Locale from 'diamond-ui/src/mixins/locale';
-  import { isDate, range, getDayCountOfMonth, nextDate } from 'diamond-ui/src/utils/date-util';
-  import { hasClass } from 'diamond-ui/src/utils/dom';
-  import { arrayFindIndex, coerceTruthyValueToArray, arrayFind } from 'diamond-ui/src/utils/util';
+  import Locale from 'diamond2221-ui/src/mixins/locale';
+  import { isDate, range, getDayCountOfMonth, nextDate } from 'diamond2221-ui/src/utils/date-util';
+  import { hasClass } from 'diamond2221-ui/src/utils/dom';
+  import { arrayFindIndex, coerceTruthyValueToArray, arrayFind } from 'diamond2221-ui/src/utils/util';
 
   const datesInMonth = (year, month) => {
     const numOfDays = getDayCountOfMonth(year, month);

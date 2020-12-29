@@ -101,9 +101,9 @@
 </template>
 
 <script type="text/babel">
-  import { getRangeHours, getRangeMinutes, modifyTime } from 'diamond-ui/src/utils/date-util';
-  import DmScrollbar from 'diamond-ui/packages/scrollbar';
-  import RepeatClick from 'diamond-ui/src/directives/repeat-click';
+  import { getRangeHours, getRangeMinutes, modifyTime } from 'diamond2221-ui/src/utils/date-util';
+  import DmScrollbar from 'diamond2221-ui/packages/scrollbar';
+  import RepeatClick from 'diamond2221-ui/src/directives/repeat-click';
 
   export default {
     components: { DmScrollbar },

@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import { on } from 'diamond-ui/src/utils/dom';
+import { on } from 'diamond2221-ui/src/utils/dom';
 
 const nodeList = [];
 const ctx = '@@clickoutsideContext';

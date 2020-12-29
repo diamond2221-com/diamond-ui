@@ -1,4 +1,4 @@
-import { on, off } from 'diamond-ui/src/utils/dom';
+import { on, off } from 'diamond2221-ui/src/utils/dom';
 import { renderThumbStyle, BAR_MAP } from './util';
 
 /* istanbul ignore next */

@@ -29,9 +29,9 @@
       ],
       "plugins": [
         ["module-resolver", {
-          "root": ["diamond-ui"],
+          "root": ["diamond2221-ui"],
           "alias": {
-            "diamond-ui/src": "diamond-ui/lib"
+            "diamond2221-ui/src": "diamond2221-ui/lib"
           }
         }]
       ]

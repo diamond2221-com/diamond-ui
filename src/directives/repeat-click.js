@@ -1,4 +1,4 @@
-import { once, on } from 'diamond-ui/src/utils/dom';
+import { once, on } from 'diamond2221-ui/src/utils/dom';
 
 export default {
   bind(el, binding, vnode) {

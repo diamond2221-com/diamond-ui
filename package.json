@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "author": "diamond2221",
   "description": "Partial elementUi components",
-  "main": "lib/diamond-ui.common.js",
+  "main": "lib/diamond2221-ui.common.js",
   "files": [
     "lib",
     "src",
@@ -18,7 +18,7 @@
     "build:utils": "cross-env BABEL_ENV=utils babel src --out-dir lib --ignore src/index.js",
     "build:umd": "node build/bin/build-locale.js",
     "clean": "rimraf lib && rimraf packages/*/lib && rimraf test/**/coverage",
-    "deploy:build": "npm run build:file && cross-env NODE_ENV=production webpack --config build/webpack.demo.js && echo element.eleme.io>>examples/diamond-ui/CNAME",
+    "deploy:build": "npm run build:file && cross-env NODE_ENV=production webpack --config build/webpack.demo.js && echo element.eleme.io>>examples/diamond2221-ui/CNAME",
     "deploy:extension": "cross-env NODE_ENV=production webpack --config build/webpack.extension.js",
     "dev:extension": "rimraf examples/extension/dist && cross-env NODE_ENV=development webpack --watch --config build/webpack.extension.js",
     "dev": "npm run bootstrap && npm run build:file && cross-env NODE_ENV=development webpack-dev-server --config build/webpack.demo.js & node build/bin/template.js",
@@ -125,5 +125,5 @@
     "webpack-dev-server": "^3.1.11",
     "webpack-node-externals": "^1.7.2"
   },
-  "homepage": "https://github.com/diamond2221-com/diamond-ui"
+  "homepage": "https://github.com/diamond2221-com/diamond2221-ui"
 }

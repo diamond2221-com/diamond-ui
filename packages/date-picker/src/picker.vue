@@ -85,12 +85,12 @@
 
 <script>
 import Vue from 'vue';
-import Clickoutside from 'diamond-ui/src/utils/clickoutside';
-import { formatDate, parseDate, isDateObject, getWeekNumber } from 'diamond-ui/src/utils/date-util';
-import Popper from 'diamond-ui/src/utils/vue-popper';
-import Emitter from 'diamond-ui/src/mixins/emitter';
-import DmInput from 'diamond-ui/packages/input';
-import merge from 'diamond-ui/src/utils/merge';
+import Clickoutside from 'diamond2221-ui/src/utils/clickoutside';
+import { formatDate, parseDate, isDateObject, getWeekNumber } from 'diamond2221-ui/src/utils/date-util';
+import Popper from 'diamond2221-ui/src/utils/vue-popper';
+import Emitter from 'diamond2221-ui/src/mixins/emitter';
+import DmInput from 'diamond2221-ui/packages/input';
+import merge from 'diamond2221-ui/src/utils/merge';
 
 const NewPopper = {
   props: {

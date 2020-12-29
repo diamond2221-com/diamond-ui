@@ -19,7 +19,7 @@ const webpackConfig = {
     docs: './examples/entry.js'
   } : (isPlay ? './examples/play.js' : './examples/entry.js'),
   output: {
-    path: path.resolve(process.cwd(), './examples/diamond-ui/'),
+    path: path.resolve(process.cwd(), './examples/diamond2221-ui/'),
     publicPath: process.env.CI_ENV || '',
     filename: '[name].[hash:7].js',
     chunkFilename: isProd ? '[name].[hash:7].js' : '[name].js'
@@ -152,7 +152,7 @@ if (isProd) {
     cacheGroups: {
       vendor: {
         test: /\/src\//,
-        name: 'diamond-ui',
+        name: 'diamond2221-ui',
         chunks: 'all'
       }
     }

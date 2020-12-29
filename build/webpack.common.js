@@ -12,7 +12,7 @@ module.exports = {
   output: {
     path: path.resolve(process.cwd(), './lib'),
     publicPath: '/dist/',
-    filename: 'diamond-ui.common.js',
+    filename: 'diamond2221-ui.common.js',
     chunkFilename: '[id].js',
     libraryExport: 'default',
     library: 'ELEMENT',

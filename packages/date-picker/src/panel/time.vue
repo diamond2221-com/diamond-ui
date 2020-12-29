@@ -31,8 +31,8 @@
 </template>
 
 <script type="text/babel">
-  import { limitTimeRange, isDate, clearMilliseconds, timeWithinRange } from 'diamond-ui/src/utils/date-util';
-  import Locale from 'diamond-ui/src/mixins/locale';
+  import { limitTimeRange, isDate, clearMilliseconds, timeWithinRange } from 'diamond2221-ui/src/utils/date-util';
+  import Locale from 'diamond2221-ui/src/mixins/locale';
   import TimeSpinner from '../basic/time-spinner';
 
   export default {

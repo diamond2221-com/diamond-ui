@@ -13,11 +13,11 @@ export interface InstallationOptions {
   size: string
 }
 
-/** The version of diamond-ui */
+/** The version of diamond2221-ui */
 export const version: string
 
 /**
- * Install all diamond-ui components into Vue.
+ * Install all diamond2221-ui components into Vue.
  * Please do not invoke this method directly.
  * Call `Vue.use(ElementUI)` to install.
  */

@@ -23,7 +23,7 @@ npm install diamond2221-ui -S
 ## Quick Start
 ``` javascript
 import Vue from 'vue'
-import DiamondUi from 'diamond-ui'
+import DiamondUi from 'diamond2221-ui'
 
 Vue.use(DiamondUi)
 
@@ -32,7 +32,7 @@ import {
   Select,
   Button
   // ...
-} from 'diamond-ui'
+} from 'diamond2221-ui'
 
 Vue.component(Select.name, Select)
 Vue.component(Button.name, Button)

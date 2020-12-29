@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import { addClass, removeClass } from 'diamond-ui/src/utils/dom';
+import { addClass, removeClass } from 'diamond2221-ui/src/utils/dom';
 
 let hasModal = false;
 let hasInitZIndex = false;

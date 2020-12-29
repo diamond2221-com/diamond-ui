@@ -1,6 +1,6 @@
 import Vue from 'vue';
-import merge from 'diamond-ui/src/utils/merge';
-import PopupManager from 'diamond-ui/src/utils/popup/popup-manager';
+import merge from 'diamond2221-ui/src/utils/merge';
+import PopupManager from 'diamond2221-ui/src/utils/popup/popup-manager';
 import getScrollBarWidth from '../scrollbar-width';
 import { getStyle, addClass, removeClass, hasClass } from '../dom';
 

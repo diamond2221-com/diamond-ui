@@ -44,9 +44,9 @@
 </template>
 
 <script type="text/babel">
-  import { hasClass } from 'diamond-ui/src/utils/dom';
-  import { isDate, range, nextDate, getDayCountOfYear } from 'diamond-ui/src/utils/date-util';
-  import { arrayFindIndex, coerceTruthyValueToArray } from 'diamond-ui/src/utils/util';
+  import { hasClass } from 'diamond2221-ui/src/utils/dom';
+  import { isDate, range, nextDate, getDayCountOfYear } from 'diamond2221-ui/src/utils/date-util';
+  import { arrayFindIndex, coerceTruthyValueToArray } from 'diamond2221-ui/src/utils/util';
 
   const datesInYear = year => {
     const numOfDays = getDayCountOfYear(year);
