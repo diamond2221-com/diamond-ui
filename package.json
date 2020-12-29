@@ -1,6 +1,6 @@
 {
   "name": "diamond2221-ui",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "diamond2221",
   "description": "Partial elementUi components",
   "main": "lib/diamond2221-ui.common.js",
